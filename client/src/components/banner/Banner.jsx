@@ -30,8 +30,8 @@ const SubHeading = styled(Typography)`
 const Banner = () => {
   return (
     <Image>
-        <Heading>Blog</Heading>
-        <SubHeading>Shape your thoughts...</SubHeading>
+        <Heading>Voyager</Heading>
+        <SubHeading>Explore new perspectives...</SubHeading>
     </Image>
   )
 }

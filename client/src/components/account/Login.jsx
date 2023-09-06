@@ -176,18 +176,21 @@ const Login = ({ isUserAuthenticated }) => {
               variant="standard"
               label="Enter Name"
               name="name"
+              value={signup.name}
               onChange={(e) => onInputChange(e)}
             />
             <TextField
               variant="standard"
               label="Enter Username"
               name="username"
+              value={signup.username}
               onChange={(e) => onInputChange(e)}
             />
             <TextField
               variant="standard"
               label="Enter Password"
               name="password"
+              value={signup.password}
               onChange={(e) => onInputChange(e)}
             />
 
